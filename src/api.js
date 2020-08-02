@@ -1,7 +1,7 @@
 import XLSX from 'xlsx';
 
 const URL =
-  'https://docs.google.com/spreadsheets/d/e/2PACX-1vSIBV_awyyv6iQcTHXpKJ5QPC2MM4pvgSamylZLGBXnj76J9pGwdewXytUKo3D4FVsCAzfnE6V8heC2/pub?output=xlsx';
+  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQRA0935pTouBgpjjXfiJfJKqAKH3UzxFlba7BJapyr4SRkGjJvE2Bn4iiGgXd4gZT6a4y-RZDFwulS/pub?output=xlsx';
 
 const fetchData = async () => {
   const res = await fetch(URL,{
